@@ -1,0 +1,79 @@
+{
+    "userInputData": {
+        "rows": [
+            {
+                "id": "inputFolderPath",
+                "desc": "Input folder",
+                "type": "folder",
+                "value": []
+            },
+            {
+                "id": "outputFilePath",
+                "desc": "[Optional] Output file",
+                "type": "new file",
+                "value": [
+                    "/Users/artemtarassov/Desktop/klasur/merged.pdf"
+                ]
+            }
+        ]
+    },
+    "schedules": {
+        "runBotOnAppStart": {
+            "value": false,
+            "default": false,
+            "visible": true
+        },
+        "runNextFixedDate": {
+            "value": "",
+            "default": "",
+            "visible": true
+        },
+        "runBotLoop": {
+            "value": false,
+            "default": false,
+            "visible": false
+        },
+        "runAfter": {
+            "value": "",
+            "default": "",
+            "visible": true
+        },
+        "runFoldersChange": {
+            "value": [],
+            "default": [],
+            "enableFlag": false,
+            "defaultEnableFlag": false,
+            "visible": true
+        },
+        "runShortcuts": {
+            "value": [
+                "Control+A"
+            ],
+            "default": [],
+            "enableFlag": true,
+            "defaultEnableFlag": false,
+            "visible": true
+        },
+        "runCron": {
+            "minute": "*",
+            "hour": "*",
+            "dayMonth": "*",
+            "month": "*",
+            "dayWeek": "*",
+            "enableFlag": false,
+            "defaultEnableFlag": false,
+            "visible": true
+        }
+    },
+    "customSettings": false,
+    "fullname": "PDF Merger - Combine PDFs into One",
+    "fulldesc": "Tired of merging your pdf files though online services or websites?\nTired of using huge applications to do such a simple task?\nDon't waste any more time!\nIntroducing the easiest solution for merging your PDF and image files - our PDF Merger extension!\nIt works offline, it can merge images (jpg and png files) as well, It can automatically merge a whole folder every time you add a new file or when you click the start button.\nIt can also work in the background without you noticing. you define an input folder which contains all the files and an output pdf file which will contain the merged result.\nSay goodbye to the hassle of navigating through countless files, and hello to a streamlined and efficient workflow. ",
+    "shortdesc": "This extension can combine a folder with multiple PDFs into one big file. Works offline, in background, super efficient workflow.",
+    "askForAccessebilityPermissions": false,
+    "installedTime": 0,
+    "lastStartTime": 0,
+    "exposeBrowser": true,
+    "storageOrigin": [],
+    "sourceurl": "",
+    "staticDependencies": []
+}

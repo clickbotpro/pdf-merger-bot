@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "rootDir": "./ts",
+        "outDir": "./js",
+        "allowJs": true,
+        "checkJs": false,
+        "declaration": false,
+        "sourceMap": false,
+        "esModuleInterop": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "watch": true
+    },
+    "exclude": [
+        "./tmp/*",
+        "./output/*",
+        "./js/**/*",
+        "./logs/*",
+        "./.child.js"
+    ]
+}

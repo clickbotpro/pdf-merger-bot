@@ -1,0 +1,22 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clickbotpro/pdf-merger-bot.git"
+  },
+  "name": "pdf-merger-bot",
+  "version": "1.0.2",
+  "description": "Merge PDF files through ClickbotPro",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "node js/index.js"
+  },
+  "author": "ClickbotPro",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}
