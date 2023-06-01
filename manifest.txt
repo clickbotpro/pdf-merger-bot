@@ -11,9 +11,7 @@
                 "id": "outputFilePath",
                 "desc": "[Optional] Output file",
                 "type": "new file",
-                "value": [
-                    "/Users/artemtarassov/Desktop/klasur/merged.pdf"
-                ]
+                "value": []
             }
         ]
     },
@@ -46,11 +44,9 @@
             "visible": true
         },
         "runShortcuts": {
-            "value": [
-                "Control+A"
-            ],
+            "value": [],
             "default": [],
-            "enableFlag": true,
+            "enableFlag": false,
             "defaultEnableFlag": false,
             "visible": true
         },

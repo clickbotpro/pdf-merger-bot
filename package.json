@@ -4,7 +4,7 @@
     "url": "git+https://github.com/clickbotpro/pdf-merger-bot.git"
   },
   "name": "pdf-merger-bot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Merge PDF files through ClickbotPro",
   "main": "js/index.js",
   "scripts": {

@@ -18,7 +18,7 @@ The files will merge in the order of their names. So, just name them in the orde
 The installation can take place through ClickbotPro or via the npm CLI.
 
 ```bash
-npm i pdf-merger
+npm i pdf-merger-bot
 ```
 
 After the installation, import this module into the application. Click the Plus (+) button and select "Import Extension."
